@@ -54,7 +54,7 @@ const listings = [
         location: "Hostel",
         date: "2025-02-02",
         type: "Found",
-        category: "Wallet",
+        category: "Accessories",
         img: "https://images.pexels.com/photos/3650937/pexels-photo-3650937.jpeg"
     }
     
@@ -124,3 +124,4 @@ renderItems(listings);
 
 
 // 
+
