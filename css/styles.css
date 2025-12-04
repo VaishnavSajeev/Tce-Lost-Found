@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-main {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-sub{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.item-title{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #10253f  ;
+
+}
+
+.hero-title{
+    font-size: 2.7rem;
+}
+
+
+.link-title{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+  margin: 0 16px;
+}
+
+.tce-logo-banner{
+    max-width: 100dvw;
+}
+
+
+.custom-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.btn-container{
+    margin-top: 32px;
+}
+
+
+.hero-btn-1{
+    background-color: #830000  ;
+    border: solid 2px #830000;
+ 
+    padding: 4px 8px;
+    color: white;
+    font-weight: 600;
+    margin-right: 16px;
+    min-width: 120px;
+
+}
+
+.hero-btn-2{
+    background-color: white;
+    border: solid 2px #830000;
+    padding: 4px 8px;
+    font-weight: 600;
+    min-width: 120px;
+
+
+}
+
+
+.hero-section {
+    flex: 1;
+    display: flex;          
+    align-items: center;    
+    margin-top: 64px
+
+}   
+
+.hero-report{
+  margin-top: 0;
+}
+
+.tce-red{
+    background-color: #830000 !important;
+    
+}
+
+.hero-left{
+    padding: 32px 32px 32px 128px;
+
+}
+.hero-right{
+    padding: 32px 128px 32px 32px;
+}
+
+.title-section{
+    margin: 32px;
+}
+
+.title1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #10253f;
+    margin: 0;
+    letter-spacing: 0.22rem;
+}
+
+.title2{
+    font-size: 1.9rem;
+    color: #830000;
+    margin: 0;
+}
+
+.text-white{
+    color: white;
+}
+
+.footer-headings{
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+.footer-text{
+    font-weight: 600;
+}
+
+.footer-subheading{
+    font-weight: 600;
+    color: white;
+    padding: 4px 8px;
+    margin-bottom: 24px;
+}
+
+.custom-footer{
+    padding: 12px 64px ;
+    border-top: solid 1px black;
+}
+
+.footer-link{
+    color: black  ;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 8px;
+}
+
+.custom-image{
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between images */
+  width: 100%; /* ensures full width of the column */
+}
+
+.image-stack img {
+  width: 100%;
+  height: 180px; /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-layout{
+    display: flex;
+    justify-content: center ;
+}
+
+
+
+/* LISITING */
+
+
+
+.filter-flex select {
+  border-radius: 0;
+  color: white;
+  padding: 10px 14px;
+  background: url("../assets/downarrow.png") no-repeat right;
+  background-size: 10px;
+  background-color: #830000;
+  background-position-x: 96%;
+  padding-right: 40px;
+}
+
+.filter-flex2 {
+  flex-grow: 4;
+}
+
+.filter-flex3 {
+  flex-grow: 3;
+}
+
+.filter-flex4 {
+  flex-grow: 3;
+}
+
+.filter-flex5 {
+  flex-grow: 3;
+}
+
+.filter-flex6 {
+  flex-grow: 3;
+}
+.items-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.search-btn {
+  background-color: #830000;
+  padding: 4px 14px;
+  color: white;
+  border: none;
+}
+
+.items-section{
+    padding: 32px  128px;
+}
+.items-row{
+    width: 100%;
+}
+
+
+.item-image{
+    aspect-ratio: 1/1;
+}
+
+
+/*  */
+
+
+.upload-box {
+    border: 2px dashed #6c757d;
+    background: #f8f9fa;
+    cursor: pointer;
+    position: relative;
+    transition: 0.25s;
+}
+
+.upload-box:hover {
+    background: #eef1f4;
+    border-color: #0d6efd;
+}
+
+.upload-icon {
+    font-size: 50px;
+    color: #0d6efd;
+    opacity: 0.8;
+}
+
+/* Hide file input but keep it clickable */
+.file-input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.lost-image{
+  object-fit: cover ;
+  width: 100%;
+  height: 100%;
+
+}
+
+.lost-submit{
+  background-color: #830000;
+  border: #830000;
+  
+}
+
+.lost-submit{}
+
+:hover.lost-submit{
+  background-color: #10253f;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .hero-section{
+        margin-top: 32px;
+    }
+  .hero-title{
+    font-size: 1.9rem;
+}
+.hero-left{
+    padding: 32px 32px 32px 32px;
+
+}
+.hero-right{
+    padding: 32px 32px 32px 32px;
+}
+
+.lost-image{
+  margin-top: 32px;
+
+}
+
+.items-section{
+    padding: 32px  32px;
+}
+
+}

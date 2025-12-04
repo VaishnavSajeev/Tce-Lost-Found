@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body class="custom-body">
+   
+        <header>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="./assets/tce-logo-banner.png" alt="Logo" width="650"  class="d-inline-block align-text-top tce-logo-banner">
+                
+                </a>
+            </div>
+
+            <!-- Lost items, Found items -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary tce-red ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-layout" id="navbarNav">
+                    <ul class="navbar-nav tce-red ">
+                        <li class="nav-item">
+                        <a class="nav-link active text-white link-title " aria-current="page" href="/">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white link-title" href="/reportlost.html">REPORT LOST</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white link-title" href="/reportfound.html">REPORT FOUND</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-white link-title" href="/listings.html">BROWSE LISTINGS</a>
+                        </li>
+                    
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>   
+        <main class="hero-container hero-section items-section flex-column ">
+            
+
+            <div class="items-filter align-self-start">
+
+                <div class="filter-flex">
+                    <select id="filter-type" class="form-select">
+                        <option value="">Found / Lost</option>
+                        <option value="Found">Found</option>
+                        <option value="Lost">Lost</option>
+                    </select>
+                </div>
+
+                <div class="filter-flex">
+                    <select id="filter-location" class="form-select">
+                        <option value="">Location</option>
+                        <option value="Library">Library</option>
+                        <option value="Cafeteria">Cafeteria</option>
+                        <option value="Hostel">Hostel</option>
+                        <option value="Parking Area">Parking Area</option>
+                        <option value="Main Gate">Main Gate</option>
+                    </select>
+                </div>
+
+                <div class="filter-flex">
+                    <select id="filter-date" class="form-select">
+                        <option value="">Date</option>
+                        <option value="2025-02-01">2025-02-01</option>
+                        <option value="2025-02-02">2025-02-02</option>
+                        <option value="2025-02-03">2025-02-03</option>
+                    </select>
+                </div>
+
+                <div class="filter-flex">
+                    <select id="filter-category" class="form-select">
+                        <option value="">Category</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Wallets">Wallets</option>
+                        <option value="Stationery">Stationery</option>
+                        <option value="Bags">Bags</option>
+                        <option value="Accessories">Accessories</option>
+                    </select>
+                </div>
+
+                <input id="search-btn" class="search-btn" type="submit" value="SEARCH" />
+            </div>
+
+            <div class="row items-row d-flex justify-content-center " id="listing-container">
+                
+                
+            
+
+
+            </div>
+            
+
+                
+
+        </main>
+        <footer class="">
+        <div class="container-fluid width">
+            <div class="row d-flex d-flex-row custom-footer">
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <div >
+                        <h5 class="tce-red d-inline-block footer-subheading">Explore</h5>
+                        <div class="d-flex flex-column">
+                            <a class="footer-link" href="">Campus Life</a>
+                            <a class="footer-link" href="">Institute Newsletter</a>
+                            <a class="footer-link" href="">Campus Map</a>
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+                </div>
+                <div class="col-12 col-md-6 text-center ">
+                    <img src="./assets/tce-logo-main.png" alt="">
+                    <h5 class="footer-headings">Thiagarajar College of Engineering</h4>               
+                    <p class="h6 footer-text">Madurai - 625 015</p>
+                    <p class="h6 footer-text">Tamil Nadu, India</p>
+                    <p class="h6 footer-text">+91 452 2482240</p>
+                    <p class="h6 footer-text">www.tce.edu</p>               
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="nav justify-content-center tce-red">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">TCE Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Admission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </footer>
+
+  
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+  
+</html>
